@@ -89,3 +89,17 @@ footer {
 
 }
 
+/**div die fotos inhoudt, effect op alle 3 foto's**/
+#designers {
+    position: relative;
+    left: 450px;
+}
+
+.designerfoto {
+    float: left;
+    height: 200px;
+    width: 200px;
+    margin-right: 100px;
+    position: relative;
+    margin-bottom: 50px;
+}
