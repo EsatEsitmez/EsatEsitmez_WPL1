@@ -17,7 +17,6 @@ main nav ul {
     list-style-type: none;
     display: block;
 }
-
 main nav ul li {
     display: inline-block;
     padding-left: 250px;
@@ -25,30 +24,21 @@ main nav ul li {
     font-size: 20pt;
 
 }
-
 main nav ul li a{
     text-decoration: none;
 }
 
 main nav ul li a:hover {
-    background-color: #e7e7e7;
-    border-radius: 7px;
+    background-color: #148f9b;
+    border-radius: 20px;
     text-decoration: underline;
 }
 
-
-main nav ul li a:active {
-    text-decoration: underline #000000;
-}
 
 main nav ul li a:visited {
     color: #000;
 }
 
-h3 {
-
-    text-underline: black;
-}
 
 article h1{
     color: #7319d9;
@@ -59,13 +49,10 @@ article p{
     text-align: center;
 }
 
-
 article h2{
-    color: #0a080e;
+    color: #000000;
     text-align: center;
 }
-
-
 
 
 /** Menu Rechts **/
@@ -92,9 +79,7 @@ article aside{
 }
 #ik img{
 
-    width: 900px;
-    height: auto;
-    max-width: 20%;
+
 }
 
 
@@ -118,8 +103,6 @@ article aside{
     padding: 20px;
     float: left;
 }
-
-
 
 
 
@@ -196,12 +179,8 @@ span {
 }
 
 
-
-
-
-
 #skills{
-    border-color: black;
+    border: 20px #7319d9;
 }
 table{
     border-collapse: collapse;
@@ -234,15 +213,14 @@ background-color: #b7b0bd
 
 }
 
-.mid .zoo{
-   alignment: center;
+
+
+
+
+
+#test {
+    text-align: center;
 }
-
-
-
-
-
-
 
 
 
