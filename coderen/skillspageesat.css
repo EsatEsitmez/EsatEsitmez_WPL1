@@ -70,7 +70,7 @@ article h2{
     position: fixed;
     width: 100px;
     right: 0;
-    top: 18%;
+    top: 26%;
     margin-top: 1px;
 }
 
@@ -87,9 +87,10 @@ article aside{
 
 .informatie {
     width: 100%;
-    padding: 10px 50px;
+
     background-color: #2aa0ad;
     border: 3px solid #6a00ea;
+    padding: 25px;
 }
 
 .informatie h5 {
