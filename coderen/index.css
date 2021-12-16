@@ -77,13 +77,6 @@ main nav ul li a:visited {
     color: #000;
 }
 
-footer {
-    padding-left: 250px;
-    padding-right: 150px;
-    background-color: #c9f9ff;
-    text-align: center;
-}
-
 .dashboardtext {
     margin-bottom: 100px;
 
@@ -103,3 +96,18 @@ footer {
     position: relative;
     margin-bottom: 50px;
 }
+
+footer {
+    padding-left: 250px;
+    padding-right: 150px;
+    background-color: #c9f9ff;
+    text-align: center;
+}
+
+#linksfooter{
+    text-align: left;
+}
+#rechtsfooter{
+    text-align: right;
+}
+
