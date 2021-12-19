@@ -4,7 +4,7 @@
     box-sizing: border-box;
     font-family: Roboto Slab, Arial, sans-serif;
     overflow-x: hidden;
-    min-width: 200px;
+
     max-width: 1920px;
 }
 
@@ -22,7 +22,7 @@ header h1{
     float: left;
     position: relative;
     top: 25px;
-    left: 490px;
+    left: 550px;
 }
 
 /**LOGO**/
@@ -56,12 +56,14 @@ main nav ul li {
 
 main nav ul li a{
     text-decoration: none;
+    color: #000;
 }
 
 main nav ul li a:hover {
     border-radius: 7px;
     text-decoration: overline;
 }
+
 
 .activepage {
     text-decoration: underline #000;
@@ -220,7 +222,7 @@ footer {
     color: #000;
     padding-left: 250px;
     padding-right: 150px;
-    padding-bottom: 150px;
+
     background-color: #bfd0e0;
     text-align: center;
 }
@@ -250,13 +252,13 @@ footer {
 
 
 #dashboardmainbody {
-    padding-bottom: 300px;
+    padding-bottom: 200px;
 }
 
 #profiel {
     float: left;
     height: 300px;
-    width: 150px;
+    width: 200px;
     overflow: hidden;
     border: 2px solid black;
     border-radius: 15px;
@@ -270,9 +272,18 @@ footer {
 
 #profiel img {
     height: 190px;
-    width: 100px;
+    width: 200px;
     border-radius: 13px;
     border-bottom: 2px solid black;
+
+}
+
+#foto_okan{
+    height: 190px;
+    width: 200px;
+    border-radius: 30px;
+    border-bottom: 2px solid black;
+
 
 }
 
@@ -350,7 +361,7 @@ table tr, td, th{
 }
 
 .hardskillscel {
-    padding-top: 180px;
+
 }
 
 .tabeldashboard {
@@ -383,55 +394,285 @@ table td h5 {
 }
 
 #goed1 {
-    background-color: #5dfdcb;
+    background-color: #87C9B4;
 }
 #goed2 {
-    background-color: #5dfdcb;
+    background-color: #87C9B4;
 }
 #goed3 {
-    background-color: #5dfdcb;
+    background-color: #87C9B4;
 }
 
 #basics1 {
-    background-color: #b34d57;
+    background-color: #ED6568;
 }
 #basics2 {
-    background-color: #b34d57;
+    background-color: #ED6568;
 }
 #basics3 {
-    background-color: #b34d57;
+    background-color: #ED6568;
 }
 #basics4 {
-    background-color: #b34d57;
+    background-color: #ED6568;
 }
 
 
 .hardskillscel {
-    padding-left: 50px;
+    padding-left: 130px;
+
 }
 
 #hardskills {
     position: relative;
-    bottom: 170px;
+    top: 10px;
     right: 20px;
 }
 
 #staafjes {
-    width: 20px;
+
     height: auto;
     position: relative;
-    bottom:150px;
-    right: 20px;
+    top: 30px;
+    right: 53px;
 }
 
 #legende {
     size: 1px;
+    position: relative;
+    bottom: 60px;
+    left: 100px;
 
 }
 
 #blindtypen {
+    font-size: 12pt;
     position: relative;
-    right: 20px;
-    bottom: 130px;
+    right: 50px;
+    top: 50px;
 }
+
+
+#ervaringen {
+    position: relative;
+    bottom: 100px;
+    left: 15px;
+}
+
+#ervaringtext {
+    position: relative;
+    bottom: 100px;
+    left: 15px;
+}
+
+#mijnsoftskills {
+    position: relative;
+    top: -40px;
+    left: 15px;
+}
+
+#creatief {
+    position: relative;
+    top: -40px;
+    left: 15px;
+
+}
+
+#legende2 {
+    position: relative;
+    bottom: 266px;
+    left: 250px;
+}
+
+#diagram {
+
+    position: relative;
+    top: -10px;
+    left: 10px;
+}
+
+
+/**HIER BEGINT CV PAGE
+}**/
+
+#cvmainbody {
+    padding-bottom: 200px;}
+
+#cvprofiel {
+    float: left;
+    height: 450px;
+    width: 200px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-left: 250px;
+    padding-bottom: 340px;}
+
+
+#cvprofiel img {
+    height: 190px;
+    width: 200px;
+    border-radius: 13px;
+    border-bottom: 2px solid black;}
+
+#cvprofieltext {
+    padding-top: 20px;
+    text-align: left;
+    position: relative;
+    left: 10px;
+}
+
+#cvbuttoncontainer {
+    font-size: 14pt;
+    float: left;
+    position: relative;
+    top: 480px;
+    right: 350px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+
+}
+
+#cvbuttons {
+    float: left;
+
+}
+
+#bekijkdashknop {
+    text-align: center;
+    position: relative;
+    bottom: 40px;
+    left: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#skillspageknop {
+    text-align: center;
+    position: relative;
+    right: 50px;
+    top:5px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#cvbuttoncontainer a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#cvbuttoncontainer a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#cvbuttoncontainer a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #c9f9ff;
+}
+
+
+#cvtabel {
+    float: left;
+    border-color: #c9f9ff;
+    border-spacing: 25px;
+    position: relative;
+    top: 45px;
+    right: 250px;
+    height: 610px;
+    width: 840px;
+}
+
+#rij1 {
+    height: 190px;
+
+}
+
+#werkervaring1 {
+    position: relative;
+    left: 20px;
+
+}
+#werkervaring2 {
+    position: relative;
+    left: 20px;
+}
+
+#rij2 {
+    height: 100px;
+}
+
+
+#studies1 {
+    text-align: center;
+}
+
+#studies2, #studies3 {
+    position: relative;
+    left: 60px;
+    top:50px;
+}
+
+#studies4, #studies5 {
+    position: relative;
+    bottom: 60px;
+    left: 620px;
+
+}
+
+#rij3k1 {
+    width: 270px;
+}
+
+#rij3k1 img {
+    position: relative;
+    left: 20px;
+}
+
+#rij3k2 h6 {
+    font-size: 14pt;
+}
+
+#cvdiploma1 {
+    position: relative;
+    left: 20px;
+}
+
+#cvdiploma2 {
+    position: relative;
+    left: 20px;
+}
+
+#cvdiploma3 {
+    position: relative;
+    left: 20px;
+}
+
+#cvdiploma4 {
+    position: relative;
+    left: 20px;
+}
+
+#cvdiploma5 {
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+
+
 

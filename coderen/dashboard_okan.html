@@ -15,7 +15,7 @@
     <h1>Databank van Designers</h1>
 </header>
 
-<main>
+<main id="dashboardmainbody">
     <nav>
         <ul>
             <li><a href="index.html">Homepage</a></li>
@@ -24,9 +24,74 @@
         </ul>
     </nav>
 
-    <table>
+    <section id="profiel">
+        <img id="foto_okan" src="assets/okan.jpg " alt="foto okan">
+        <p id="profieltext"><br>"Ik rij graag auto's<br> en heb een zwakke<br>plek voor katten."</p>
+    </section>
 
+    <div id="dashboardbuttoncontainer">
+        <span><a class="dashboardbuttons" id="bekijkcvknop" href="cvokan.html">Bekijk CV</a></span>
+        <span><a class="dashboardbuttons" id="bekijkskillsknop" href="skillspage_okan.html">Bekijk Skills</a></span>
+    </div>
+
+
+    <table class="tabeldashboard">
+        <tr>
+            <td>
+                <h5>Adobe XD</h5><span class="skillratings" id="goed1">Goed</span>
+                <h5>Adobe Photoshop</h5><span class="skillratings" id="goed2">Goed</span>
+                <h5>Adobe Illustrator</h5><span class="skillratings" id="basics1">Basics</span>
+            </td>
+
+            <td id="softskillcel" rowspan="4">
+                <h1 id="ervaringen">Ervaringen</h1>
+                <span id="ervaringtext">Ik ben momenteel privé chauffeur<br>van exclusieve luxe auto's.</span>
+                <h1 id="mijnsoftskills">Mijn Soft skills</h1>
+                <span id="creatief">
+                    Communicatie met anderen<br>
+                    Werken in een team<br>
+                    Leiderschap<br>
+                    Behulpzaam<br>
+                    Creatief<br>
+                </span>
+                <span id="legende2"><img src="assets/legende.png" alt="legende van kleuren"></span>
+                <span id="diagram"><img src="assets/diagram_okan.png" alt="cirkeldiagram"></span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>HTML, CSS</h5><span class="skillratings" id="goed3">Goed</span>
+                <h5>Python</h5><span class="skillratings" id="basics2">Basics</span>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <h5>Javascript</h5><span class="skillratings" id="basics3">Basics</span>
+                <h5>WordPress</h5><span class="skillratings" id="basics4">Basics</span>
+            </td>
+        </tr>
+
+        <tr class="hardskillscel">
+            <td class="hardskillscel">
+                <h2 id="hardskills">Hard Skills</h2>
+                <span id="staafjes"><img  src="assets/staafjes_okan.png" alt="staafjes"></span>
+                <p id="blindtypen">
+                    Blind Typen<br>
+                    Programmeren<br>
+                    Economie<br>
+                    Internet gebruik<br>
+                    Talen beheersen<br>
+                </p>
+                <span id="legende"><img src="assets/legende.png" alt="legende van kleuren"></span>
+            </td>
+        </tr>
     </table>
+
+
+
+
 
 
 </main>
