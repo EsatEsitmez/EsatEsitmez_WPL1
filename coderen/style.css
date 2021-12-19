@@ -216,26 +216,6 @@ main nav ul li a:visited {
     right: 310px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     color: #000;
     padding-left: 250px;
@@ -262,8 +242,196 @@ footer {
     bottom: -30px;
 }
 
-.tabeldashboard {
-    border: 3px solid black;
-    border-collapse: collapse;
+
+
+
+
+/** DASHBOARD ZELF VNAAF HEIR**/
+
+
+#dashboardmainbody {
+    padding-bottom: 300px;
+}
+
+#profiel {
+    float: left;
+    height: 300px;
+    width: 150px;
+    overflow: hidden;
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: #fff;
+    margin-top: 70px;
+    margin-left: 250px;
+    padding-bottom: 340px;
+
 
 }
+
+#profiel img {
+    height: 190px;
+    width: 100px;
+    border-radius: 13px;
+    border-bottom: 2px solid black;
+
+}
+
+#profieltext {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#dashboardbuttoncontainer {
+    font-size: 28pt;
+    float: left;
+    position: relative;
+    top: 480px;
+    right: 350px;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 30px;
+
+}
+
+#dashboardbuttons {
+    float: left;
+
+}
+
+#bekijkcvknop {
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+    left: 150px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+#bekijkskillsknop {
+    text-align: center;
+    position: relative;
+    right: 70px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#dashboardbuttoncontainer a {
+    text-decoration: none;
+    color: #000;
+
+}
+
+#dashboardbuttoncontainer a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
+#dashboardbuttoncontainer a:hover {
+    text-decoration: none;
+    color: #000;
+    background-color: #c9f9ff;
+}
+
+
+
+
+
+table tr, td, th{
+    border: 1px solid #000;
+
+    border-radius: 15px;
+}
+
+.hardskillscel {
+    padding-top: 180px;
+}
+
+.tabeldashboard {
+    float: left;
+    border-color: #c9f9ff;
+    border-spacing: 25px;
+    position: relative;
+    top: 45px;
+    right: 300px;
+    height: 610px;
+    width: 730px;
+
+}
+
+table td h5 {
+    font-size: 11pt;
+    position: relative;
+    top: 10px;
+    left: 30px;
+}
+
+.skillratings {
+    font-size: 10pt;
+    border: 1px solid black;
+    padding:5px;
+    border-radius: 40px;
+    position: relative;
+    left: 250px;
+    bottom: 10px;
+}
+
+#goed1 {
+    background-color: #5dfdcb;
+}
+#goed2 {
+    background-color: #5dfdcb;
+}
+#goed3 {
+    background-color: #5dfdcb;
+}
+
+#basics1 {
+    background-color: #b34d57;
+}
+#basics2 {
+    background-color: #b34d57;
+}
+#basics3 {
+    background-color: #b34d57;
+}
+#basics4 {
+    background-color: #b34d57;
+}
+
+
+.hardskillscel {
+    padding-left: 50px;
+}
+
+#hardskills {
+    position: relative;
+    bottom: 170px;
+    right: 20px;
+}
+
+#staafjes {
+    width: 20px;
+    height: auto;
+    position: relative;
+    bottom:150px;
+    right: 20px;
+}
+
+#legende {
+    size: 1px;
+
+}
+
+#blindtypen {
+    position: relative;
+    right: 20px;
+    bottom: 130px;
+}
+
